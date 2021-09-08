@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    user-select: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#box{
+  width: 100%;
+  height: 100vh;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  place-items: center;
+  flex-direction: column;
+}
+#boxing{
+  width: 900px;
+  min-height: 500px;
+  background-color: red;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  place-items: center;
+  font-size: 243px;
+  color: white;
+  text-shadow: 3px 3px 19px black;
+}
+#insertBox{
+  width: 900px;
+  min-height: 100px;
+  background-color: aquamarine;
+  display: flex;
+  justify-content: center;
+  place-items: center;
+}
+#insertBox input{
+  width: 400px;
+  height: 30px;
+  background-color: rgb(22, 22, 22);
+  color: white;
+  border-radius: 20px;
+  border: none;
+  padding: 21px 40px;
+  outline: none;
+  text-align: center;
+}
+#insertBox span{
+  padding: 10px 30px;
+  margin-left: 10px;
+  color: black; 
+  outline: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: bold;
+}
+#start{
+  background-color: lime;
+  box-shadow: inset 2px 2px 19px green;
+}
+#stop{
+  background-color: red;
+  box-shadow: inset 2px 2px 19px brown;
+}
+#reset{
+  background-color: white;
+  box-shadow: inset 2px 2px 19px black;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
